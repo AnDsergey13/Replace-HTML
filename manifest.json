@@ -1,0 +1,10 @@
+{
+  "name": "HTMLReplace",
+  "description": "Заменяет на сайте HTML для того, чтобы экранные читалки могли оговариавать элементы",
+   "browser_action": {
+   "default_popup": "evroopt.html"
+  },
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "permissions": ["activeTab"]
+}
