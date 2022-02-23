@@ -1,10 +1,21 @@
 {
-  "name": "HTMLReplace",
-  "description": "Заменяет на сайте HTML для того, чтобы экранные читалки могли оговариавать элементы",
-   "browser_action": {
-   "default_popup": "main.html"
-  },
-  "version": "1.0.0",
-  "manifest_version": 2,
-  "permissions": ["activeTab"]
+	"name": "HTMLReplace",
+	"description": "Заменяет на сайте HTML для того, чтобы экранные читалки могли оговариавать элементы",
+	"version": "1.0.0",
+	"manifest_version": 2,
+
+	"browser_action": {
+		"default_popup": "main.html"
+	},
+
+	"permissions": [
+	"activeTab"
+	],
+
+
+	"content_scripts": [
+	{
+		"matches": ["<all_urls>"],
+		"js": ["replace.js"]
+	}]
 }
