@@ -1,14 +1,48 @@
-// https://learn.javascript.ru/types
-"use strict"; // Будем использовать современный код. Если убрать директиву, то будет работать только для старого
+"use strict";
 
-const MY_NAME = "Семён";
-const MY_AGE = 18;
-let message = "Hello мир"; 
 
-// let message = '6566 мир';
-// alert("Привет мир"); появляется окно с надписью Привет мир
-// alert(`Меня зовут ${MY_NAME}, мне ${MY_AGE}`); 
-// let isGreater = 4 > 1;
-// typeof("foo") // "string"  // аналог в питоне type("fool")
-alert(`Меня зовут ${MY_NAME}, мне ${MY_AGE}`);
-// [1, 2].forEach(alert);
+function sleep(milliseconds) {
+  const date = Date.now();
+  let currentDate = null;
+  do {
+    currentDate = Date.now();
+  } while (currentDate - date < milliseconds);
+}
+
+function test(){
+	console.log("Рыбка");
+	
+	// while (1){
+		let buttons = document.querySelectorAll(".minus:not([title])");
+
+		for (let button of buttons)
+		{
+			button.setAttribute("title", "минус");
+		}
+		// sleep(1000);
+	// }
+	
+	// while (1){	
+		// let first_button = document.querySelector(".minus");
+		// if (!first_button.hasAttribute("title"))
+		// {
+		// 	first_button.setAttribute("title", "минус");
+		// 	continue;
+		// }
+
+		// if (first_button == null) break;
+	// }
+}
+
+
+let html_site = document.documentElement.outerHTML;
+let url = document.documentURI;
+
+if (url == "https://e-dostavka.by/catalog/8149.html")
+{
+	test();
+	
+}
+else{
+	console.log(url);
+}
