@@ -3,7 +3,7 @@
 
 const MY_NAME = "Семён";
 const MY_AGE = 18;
-let message = "Hello мир";
+let message = "Hello мир"; 
 
 // let message = '6566 мир';
 // alert("Привет мир"); появляется окно с надписью Привет мир
