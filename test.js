@@ -1,4 +1,9 @@
-// https://learn.javascript.ru/types
+// https://learn.javascript.ru/searching-elements-dom
+// https://developer.mozilla.org/ru/docs/Web/CSS/CSS_Selectors
+// https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_first_WebExtension
+
+
+// https://learn.javascript.ru/function-basics
 // about:debugging#/runtime/this-firefox
 "use strict"; // Будем использовать современный код. Если убрать директиву, то будет работать только для старого
 
