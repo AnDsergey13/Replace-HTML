@@ -2,7 +2,7 @@
 
 // Асинхронная задержка
 function sleep(ms) {
-    return new Promise(resolve => setTimeout(resolve, ms));
+	return new Promise(resolve => setTimeout(resolve, ms));
 }
 
 async function replace_elements(array_elements){
@@ -31,32 +31,34 @@ function getDomenName()
 }
 
 
+
+
 // Очищаем консоль, чтобы остальной код не мешался
 console.clear();
 
-console.log("Запущено");
+console.log("Запущено 1");
 
-let html_site = document.documentElement.outerHTML;
+// let a = ["e-dostavka.by",[
+// 			["button.minus","_____________минус"],
+// 			["button.plus","______________плюс"]], 
+// 		"tut.by",[
+// 			["button.link","ссылка"],
+// 			["button.link","ссылка"]
+// 		]
+// ];
 
-var fs = require('fs');
-var file = fs.readFileSync('rules.json', 'utf8');
-var jsObj = JSON.parse(file);
-console.log(jsObj + "+++++++++++")
+// https://itchief.ru/javascript/json
 
-// let request = new XMLHttpRequest();
-// request.open('GET', "file:///C:/Users/Janna/Documents/+Folder_Sergey/Replace-HTML/rules.json", true);
-// request.responseType = 'json';
-// console.log( request.getAllResponseHeaders() + "+++++++++++++++++");
-
-// // JSON - JavaScript Object Notation
-// fetch("./rules.json")
-// 	.then(response => response.json())
-// 	.then(data => {console.log(data)})
+// const rules = {
+// 	sites: 
+// 	name: ['Bob', 'Smith'],
+// 	age: 32,
+// };
 
 
-// let rulesObject =require(rules);
-// console.log(rulesObject);
+// console.log(a[2]);
 
+console.log("Запущено 2");
 // let domenName = getDomenName();
 
 
