@@ -107,3 +107,53 @@ let message = "Hello мир";
 //     alert( 'Неизвестное значение' );
 // }
 
+
+// ===================================================
+// const fs = require('fs')
+
+// console.log("второй");
+
+// fs.readFile('rules_gen.json', 'utf-8', (err, jsonString) => {
+// 	if (err){
+// 		console.log(err);
+// 	}
+// 	else
+// 	{
+// 		const data = JSON.parse(jsonString)
+// 		console.log(data.address);
+// 	}
+// });
+
+
+// if (window.File && window.FileReader && window.FileList && window.Blob) {
+//   alert("Киргиз хочет кушать")
+// } else {
+//   alert('File API не поддерживается данным браузером');
+// }
+
+
+
+// console.log("третий");
+// console.log(customer);
+// alert("Курить документацию")
+
+// let html_site = document.documentElement.outerHTML;
+
+// var fs = require('fs');
+// var file = fs.readFileSync('rules.json', 'utf8');
+// var jsObj = JSON.parse(file);
+// console.log(jsObj + "+++++++++++")
+
+// let request = new XMLHttpRequest();
+// request.open('GET', "file:///C:/Users/Janna/Documents/+Folder_Sergey/Replace-HTML/rules.json", true);
+// request.responseType = 'json';
+// console.log( request.getAllResponseHeaders() + "+++++++++++++++++");
+
+// // JSON - JavaScript Object Notation
+// fetch("./rules.json")
+// 	.then(response => response.json())
+// 	.then(data => {console.log(data)})
+
+
+// let rulesObject =require(rules);
+// console.log(rulesObject);
