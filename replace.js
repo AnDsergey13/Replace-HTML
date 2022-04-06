@@ -1,3 +1,5 @@
+// import * as general_rules from './General_rules.html';
+// 
 "use strict";
 
 // Асинхронная задержка
@@ -31,35 +33,16 @@ function getDomenName()
 }
 
 
-
-
 // Очищаем консоль, чтобы остальной код не мешался
 console.clear();
 
 console.log("Запущено 1");
 
-// let a = ["e-dostavka.by",[
-// 			["button.minus","_____________минус"],
-// 			["button.plus","______________плюс"]], 
-// 		"tut.by",[
-// 			["button.link","ссылка"],
-// 			["button.link","ссылка"]
-// 		]
-// ];
+// console.log(general_rules);
 
-// https://itchief.ru/javascript/json
+console.log("Запущено 3");
 
-// const rules = {
-// 	sites: 
-// 	name: ['Bob', 'Smith'],
-// 	age: 32,
-// };
-
-
-// console.log(a[2]);
-
-console.log("Запущено 2");
-// let domenName = getDomenName();
+let domenName = getDomenName();
 
 
 // let url = document.documentURI;
