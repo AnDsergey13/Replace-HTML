@@ -5,6 +5,7 @@
 
 // https://learn.javascript.ru/function-basics
 // about:debugging#/runtime/this-firefox
+// https://github.com/gorhill/uBlock
 "use strict"; // Будем использовать современный код. Если убрать директиву, то будет работать только для старого
 
 const MY_NAME = "Семён";
@@ -157,3 +158,11 @@ let message = "Hello мир";
 
 // let rulesObject =require(rules);
 // console.log(rulesObject);
+
+// localStorage.setItem('test', "Оригинал");
+
+// console.log("Запущено 2");
+
+// console.log(localStorage.getItem('test'));
+
+// https://itchief.ru/javascript/json
