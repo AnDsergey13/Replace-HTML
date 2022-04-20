@@ -166,3 +166,14 @@ let message = "Hello мир";
 // console.log(localStorage.getItem('test'));
 
 // https://itchief.ru/javascript/json
+
+///////////////////////////////
+//c:\Users\Janna\AppData\Roaming\Mozilla\Firefox\Profiles\55z6214r.default-release\extensions\uBlock0@raymondhill.net.xpi\js\
+///
+e-dostavka.by/catalog/##button.minus
+
+//https://github.com/gorhill/uBlock/wiki/Static-filter-syntax#html-filters
+//https://github.com/gorhill/uBlock/wiki/Procedural-cosmetic-filters
+//https://help.eyeo.com/en/adblockplus/snippet-filters-tutorial#snippets-refs
+//https://help.eyeo.com/en/adblockplus/how-to-write-filters#elemhide_basic
+//https://github.com/gorhill/uBlock/wiki/Static-filter-syntax#extended-syntax
