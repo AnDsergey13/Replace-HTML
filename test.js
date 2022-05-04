@@ -177,3 +177,15 @@ e-dostavka.by/catalog/##button.minus
 //https://help.eyeo.com/en/adblockplus/snippet-filters-tutorial#snippets-refs
 //https://help.eyeo.com/en/adblockplus/how-to-write-filters#elemhide_basic
 //https://github.com/gorhill/uBlock/wiki/Static-filter-syntax#extended-syntax
+
+/// replace-attr.js
+/// advanced
+(function() {
+	let name_func = '{{1}}';
+	let tag_and_attr = '{{2}}';
+    let add_title = '{{3}}';
+	if (name_func === 'replace-attr')
+	{
+		console.log("Мой чудный скрипт запустился!!! 195");
+	}
+})();
