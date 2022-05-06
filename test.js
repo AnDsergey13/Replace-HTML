@@ -166,3 +166,26 @@ let message = "Hello мир";
 // console.log(localStorage.getItem('test'));
 
 // https://itchief.ru/javascript/json
+
+///////////////////////////////
+//c:\Users\Janna\AppData\Roaming\Mozilla\Firefox\Profiles\55z6214r.default-release\extensions\uBlock0@raymondhill.net.xpi\js\
+///
+e-dostavka.by/catalog/##button.minus
+
+//https://github.com/gorhill/uBlock/wiki/Static-filter-syntax#html-filters
+//https://github.com/gorhill/uBlock/wiki/Procedural-cosmetic-filters
+//https://help.eyeo.com/en/adblockplus/snippet-filters-tutorial#snippets-refs
+//https://help.eyeo.com/en/adblockplus/how-to-write-filters#elemhide_basic
+//https://github.com/gorhill/uBlock/wiki/Static-filter-syntax#extended-syntax
+
+/// replace-attr.js
+/// advanced
+(function() {
+	let name_func = '{{1}}';
+	let tag_and_attr = '{{2}}';
+    let add_title = '{{3}}';
+	if (name_func === 'replace-attr')
+	{
+		console.log("Мой чудный скрипт запустился!!! 195");
+	}
+})();

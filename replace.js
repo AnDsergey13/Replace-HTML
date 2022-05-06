@@ -38,11 +38,24 @@ console.clear();
 
 console.log("Запущено 1");
 
+let input2 = document.querySelector("iframe").contentWindow.document.querySelector("span");
+// let input2 = document.querySelector("iframe");
+// let input2 = document.getElementsByName("gen_rules");
+// for (let inpu of input2)
+// 	{
+// 		console.log(inpu);
+// 		console.log("one");
+// 	}
+// console.log(data);
+console.log(input2);
+
 // console.log(general_rules);
 
 console.log("Запущено 3");
 
-let domenName = getDomenName();
+// let domenName = getDomenName();
+
+
 
 
 // let url = document.documentURI;
