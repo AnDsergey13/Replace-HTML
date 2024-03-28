@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Заменяет атрибуты тегов для сайта edostavka.by
 // @namespace    https://codeberg.org/femto/Replace-HTML
-// @version      0.1
+// @version      0.11
 // @description  Это необходимо для корректной работы скринридеров(NVDA, Jaws)
 // @author       femto
 // @match        https://edostavka.by/*
@@ -16,7 +16,7 @@
         iconElement.setAttribute('aria-label', 'Самое популярное ссылка');
     }
 })();
-
+ 
 // для скрытия озвучки
 // aria-hidden="true"
 
