@@ -1,8 +1,9 @@
 // ==UserScript==
-// @name         Замена aria-label для тега <i>
-// @namespace    https://example.com
-// @version      1.0
-// @description  Заменяет aria-label для тега <i> на сайте https://edostavka.by/
+// @name         Заменяет атрибуты тегов для сайта edostavka.by
+// @namespace    https://codeberg.org/femto/Replace-HTML
+// @version      0.1
+// @description  Это необходимо для корректной работы скринридеров(NVDA, Jaws)
+// @author       femto
 // @match        https://edostavka.by/*
 // @grant        none
 // ==/UserScript==
