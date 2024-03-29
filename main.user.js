@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         Заменяет атрибуты тегов для сайта edostavka.by
-// @namespace    https://codeberg.org/femto/Replace-HTML
-// @version      0.2
+// @namespace    https://github.com/AnDsergey13/WCAG-Edostavka
+// @version      0.2.1
 // @description  Это необходимо для корректной работы скринридеров(NVDA, Jaws)
 // @author       femto
 // @match        https://edostavka.by/*
 // @grant        none
-// @icon         https://raw.githubusercontent.com/AnDsergey13/Replace-HTML/master/edostavka_by.ico
+// @icon         https://raw.githubusercontent.com/AnDsergey13/WCAG-Edostavka/master/edostavka_by.ico
 // ==/UserScript==
 
 (function() {
